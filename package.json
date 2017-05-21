@@ -1,0 +1,28 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Proyecto de JavaScript. Idioma inventado.",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDash3/platzom-js_3.git"
+  },
+  "keywords": [
+    "platzom"
+  ],
+  "author": "IDash3 <idash3.b@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iDash3/platzom-js_3/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
